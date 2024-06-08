@@ -76,12 +76,13 @@ section {
   display: flex;
   align-items: center;
   padding: 0 9%;
-  background: url(/images/home.jpg) no-repeat;
+  background: url() no-repeat;
   background-size: cover;
   background-position: center;
+  height: fit-content;
 }
 .home-content {
-  max-width: 60rem;
+  max-width: fit-content;
   z-index: 99;
 }
 .home-content h1 {
@@ -183,8 +184,7 @@ section {
   width: 100%;
 }
 .home-sci {
-  position: absolute;
-  bottom: 4rem;
+ margin-top: 26px;
   width: 170px;
   display: flex;
   justify-content: space-between;
@@ -773,12 +773,14 @@ transition: transform 0.5s;
   html {
     font-size: 50%;
   }
-  .home-conten h1 {
+  .home-content h1 {
     display: flex;
     flex-direction: column;
   }
   .home-sci {
     width: 160px;
+    display: none
+    ;
   }
   .home-sci a {
     width: 38px;
@@ -856,5 +858,11 @@ transition: transform 0.5s;
 @keyframes showRight {
   100% {
     width: 0;
+  }
+}
+@media (max-width: 720px){
+  .home-sci {
+  
+    
   }
 }
