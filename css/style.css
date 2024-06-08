@@ -183,13 +183,13 @@ section {
 .btn-box .btn:hover::before {
   width: 100%;
 }
-.home-sci {
+.p {
  margin-top: 26px;
   width: 170px;
   display: flex;
   justify-content: space-between;
 }
-.home-sci a {
+.p a {
   position: relative;
   display: inline-flex;
   justify-content: center;
