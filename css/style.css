@@ -168,7 +168,11 @@ section {
 .btn-box .btn:nth-child(2):hover {
   color: var(--bg-color);
 }
-
+.image{
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+}
 .btn-box .btn::before {
   content: "";
   position: absolute;
